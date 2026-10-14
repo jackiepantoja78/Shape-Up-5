@@ -1,0 +1,76 @@
+body {
+  font-family: Arial;
+  width: 700px;
+  border-color: 2px solid steelblue;
+  box-shadow: 0px 0px 10px black;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid steelblue;
+}
+
+a {
+  font-weight: bold;
+}
+
+header {
+  background-image: linear-gradient(to bottom, white, lightsteelblue);
+  border-bottom: solid steelblue;
+  border-top: solid steelblue;
+}
+header h1 {
+  font-size: 2em;
+}
+
+header h2 {
+  font-size: 1.5em;
+  color: steelblue;
+  font-style: italic;
+}
+
+header h3 {
+  font-size: 1.2em;
+}
+
+header img {
+  float: left;
+  margin-right: 20px;
+}
+
+section a:link,
+section a:visited {
+  color: maroon;
+}
+
+section a:hover,
+section a:focus {
+  color: steelblue;
+}
+
+aside {
+  border: 2px solid steelblue;
+  border-radius: 10px;
+}
+aside h2 {
+  color: maroon;
+}
+
+aside ul {
+  line-height: 1.5;
+}
+
+aside a:link,
+aside a:visited {
+  color: steelblue;
+}
+
+aside a:hover,
+aside a:focus {
+  color: maroon;
+}
+
+footer {
+  font-size: 0.8em;
+  text-align: center;
+  background-color: steelblue;
+  color: white;
+}
